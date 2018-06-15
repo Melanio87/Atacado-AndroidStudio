@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/txCuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual a probabilidade de você recomendar a Atacado Games a um amigo?"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridViewListNum"
+        android:numColumns="2"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:layout_below="@+id/txCuestion"
+        android:horizontalSpacing="15dp"
+        android:verticalSpacing="30dp"
+
+        />
+
+</RelativeLayout>

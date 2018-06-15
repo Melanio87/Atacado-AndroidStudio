@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/previous"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="1"
+        android:title="Voltar"
+        app:showAsAction="always|withText"/>
+
+    <item android:id="@+id/cancel"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Cancelar"
+        app:showAsAction="always|withText"
+        android:orderInCategory="2"/>
+
+</menu>
